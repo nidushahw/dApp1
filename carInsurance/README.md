@@ -42,10 +42,8 @@
     
 ## Functions
     SubmitClaim 
-    SubmitToPolice
-    ClaimInvestigation 
-    PolicyReview
-    DamageEvaluation
+    investigateClaim
+    evaluateDamage 
     ApproveClaim
     RejectClaim
 
@@ -53,11 +51,9 @@
    Functions |Roles
    ---------- |----------
    | SubmitClaim        | Policy Owner |
-   | SubmitToPolice     | Investigating officer
-   | ClaimInvestigation | Insurance Company, Policy Owner
-   | PolicyReview       | Insurance Company, Investigating officer
-   | DamageEvaluation   | Insurance Company, Investigating officer
-   | ApproveClaim       | Insurance Company,System
+   | investigateClaim     | Investigating officer
+   | evaluateDamage | Insurance Company, Investigating officer
+   | claimApproval      | Insurance Company,System
    | RejectClaim        | Insurance Company,System
 
 
